@@ -1,4 +1,4 @@
-# 📱 Assignment 1  
+
 ## Foodora App UI in Flutter 🍔
 
 ![Foodora UI](https://paper-attachments.dropboxusercontent.com/s_A8FFBBE8FC8B6CD6E76F8A387E1E02F9FAE9735AE5170B84D95D4A05B0A94071_1739348940745_Screenshot+1446-08-13+at+11.12.53AM.png)
