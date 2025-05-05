@@ -1,8 +1,8 @@
 
-## *Foodora App UI in Flutter* 🍔
+##> *Foodora App UI in Flutter* 🍔
 
 
- - #*Project description* 
+ > - #*Project description* 
 
 Food delivery application developed using Flutter, featuring a user-friendly interface that allows users to easily navigate through various screens. It includes a welcome screen that transitions to a login/signup screen, where users can toggle between logging in and signing up. The main dashboard presents a visually appealing layout showcasing food categories and items, with a focus on burgers. Users can search for food items, view detailed food cards, and interact with a floating cart button for quick access to their cart summary. The app is designed to provide a seamless and engaging experience for food lovers.
 
@@ -19,7 +19,7 @@ Food delivery application developed using Flutter, featuring a user-friendly int
 Note: You need a working emulator or a connected real device.
 
 
- - #*Screenshots of your app*
+ > - #*Screenshots of your app*
 
 
 
