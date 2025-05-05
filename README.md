@@ -43,7 +43,8 @@ Note: You need a working emulator or a connected real device.
 
 ✅ #*Food Dashboard Screen*
 
-![image](https://github.com/user-attachments/assets/dffdd0de-2eba-4639-ac56-f60ff43ef6c9)
+
+![image](https://github.com/user-attachments/assets/0bb3d7fe-3c90-4f9a-9d7e-0edea3dde1ec)
 
 
 
