@@ -23,10 +23,11 @@ class _Food_Dashboard_Screen_State extends State<Food_Dashboard_Screen> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Builder(
-                  builder: (context) => IconButton(
-                    icon: Icon(Icons.menu),
-                    onPressed: () => Scaffold.of(context).openDrawer(),
-                  ),
+                  builder:
+                      (context) => IconButton(
+                        icon: Icon(Icons.menu),
+                        onPressed: () => Scaffold.of(context).openDrawer(),
+                      ),
                 ),
                 CircleAvatar(
                   backgroundImage: AssetImage("assets/Profile-Image.png"),
@@ -44,8 +45,14 @@ class _Food_Dashboard_Screen_State extends State<Food_Dashboard_Screen> {
 
             // Search bar
             TextField(
+              style: TextStyle(
+                color: Colors.grey,
+              ),
               decoration: InputDecoration(
                 hintText: "  Search for a food item",
+                hintStyle: TextStyle(
+                  color: Colors.grey,
+                ),
                 filled: true,
                 fillColor: Colors.white,
                 border: OutlineInputBorder(
@@ -62,6 +69,7 @@ class _Food_Dashboard_Screen_State extends State<Food_Dashboard_Screen> {
                 ),
               ),
             ),
+
             SizedBox(height: 40),
             // Categories
             Text(
@@ -133,9 +141,10 @@ class _Food_Dashboard_Screen_State extends State<Food_Dashboard_Screen> {
                   width: _currentPage == index ? 10 : 8,
                   height: _currentPage == index ? 10 : 8,
                   decoration: BoxDecoration(
-                    color: _currentPage == index
-                        ? Colors.red
-                        : Colors.grey.shade400,
+                    color:
+                        _currentPage == index
+                            ? Colors.red
+                            : Colors.grey.shade400,
                     shape: BoxShape.circle,
                   ),
                 );
@@ -173,26 +182,27 @@ class _Food_Dashboard_Screen_State extends State<Food_Dashboard_Screen> {
           onPressed: () {
             showModalBottomSheet(
               context: context,
-              builder: (_) => Container(
-                padding: EdgeInsets.all(16),
-                height: 200,
-                child: Column(
-                  children: [
-                    Text(
-                      "Cart Summary",
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
+              builder:
+                  (_) => Container(
+                    padding: EdgeInsets.all(16),
+                    height: 200,
+                    child: Column(
+                      children: [
+                        Text(
+                          "Cart Summary",
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        Divider(),
+                        ListTile(
+                          title: Text("Zinger Burger"),
+                          trailing: Text("\$12"),
+                        ),
+                      ],
                     ),
-                    Divider(),
-                    ListTile(
-                      title: Text("Zinger Burger"),
-                      trailing: Text("\$12"),
-                    ),
-                  ],
-                ),
-              ),
+                  ),
             );
           },
         ),
@@ -215,7 +225,8 @@ class _Food_Dashboard_Screen_State extends State<Food_Dashboard_Screen> {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: selected ? Colors.red.withOpacity(0.2) : Colors.grey.shade300,
+            color:
+                selected ? Colors.red.withOpacity(0.2) : Colors.grey.shade300,
             blurRadius: 10,
             offset: Offset(0, 4),
           ),
