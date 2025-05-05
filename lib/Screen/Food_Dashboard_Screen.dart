@@ -45,14 +45,10 @@ class _Food_Dashboard_Screen_State extends State<Food_Dashboard_Screen> {
 
             // Search bar
             TextField(
-              style: TextStyle(
-                color: Colors.grey,
-              ),
+              style: TextStyle(color: Colors.grey),
               decoration: InputDecoration(
                 hintText: "  Search for a food item",
-                hintStyle: TextStyle(
-                  color: Colors.grey,
-                ),
+                hintStyle: TextStyle(color: Colors.grey),
                 filled: true,
                 fillColor: Colors.white,
                 border: OutlineInputBorder(
