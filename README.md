@@ -1,57 +1,44 @@
 
 ## Foodora App UI in Flutter 🍔
+A clean and minimal user interface for a mobile app, designed using Flutter.
 
-![Foodora UI](https://paper-attachments.dropboxusercontent.com/s_A8FFBBE8FC8B6CD6E76F8A387E1E02F9FAE9735AE5170B84D95D4A05B0A94071_1739348940745_Screenshot+1446-08-13+at+11.12.53AM.png)
-
----
-
-## 📌 Objective
-
-Your task is to replicate the **Foodora app UI** using Flutter.  
-The app should provide an interactive and visually appealing food ordering experience with **smooth navigation**.
-
----
-
-## 🎨 Figma UI
-
-Design reference:
-
-- [Figma Design](https://www.figma.com/design/2zd2h3XEZ7fsSkS3oeSOYn/Food-app---Authentication-(Community)?node-id=0-1&p=f&t=sXtJ8KxNe3voBCvy-0)
+![Log in Page (5)](https://github.com/user-attachments/assets/7a479e0a-5498-4e26-b28e-00b41e85382d)
 
 
 ---
 
-## 🔧 Concepts to Implement
+## Features
 
-1. **Advanced Navigation**
-   - 🧭 Implement a `Drawer` for side navigation.
-   - 🍽️ Create a `TabBar` with `TabController` to switch between food categories.
+- Modern layout with bottom navigation
 
-2. **Scrollable Views**
-   - 📜 Use `ListView` for a vertical scrollable list of food items.
-   - 👆 Implement `PageView` for swiping between featured food.
-   - ⚙️ Customize scroll behavior and gestures.
+- Organized screens: Home, Profile, Settings
 
-3. **Dialogs and Sheets**
-   - 🛒 Use `AlertDialog` for adding to cart.
-   - 📦 Implement a `BottomSheet` for food item details or cart summary.
 
----
+## Tech Stack 
+- Flutter (latest version) 
+- Dart
 
-## 📂 Submission Guidelines
 
-- 📌 Upload your project to **GitHub** with a well-documented `README.md`.
-- 📸 Include **screenshots** or **screen recordings** of the working app.
-- 🧼 Follow **clean code** principles.
+## Installation 
+1.	Clone the repository: 
+git clone https://github.com/shtwaijri/Educational-Kids-Game.git
 
----
+2.	Navigate to the project folder: 
+cd  Educational-Kids-Game
 
-## ⏳ Deadline
+3. Install dependencies: 
+flutter pub get 
 
-Submit by **[May 6]** before **10:00 AM**.
+4.	Run the app: 
+flutter run 
 
----
+## How to Use 
+- Open the app. 
+- Browse through available screens. 
 
-## ✨ Reminder
+## Author 
+- Shatha Altwaijri 
 
-🚀 *"Food ordering apps should be as smooth as melted cheese on a burger!"* 🍔😋
+
+
+
