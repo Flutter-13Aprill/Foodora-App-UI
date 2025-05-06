@@ -21,7 +21,7 @@ A clean and minimal user interface for a mobile app, designed using Flutter.
 
 ## Installation 
 1.	Clone the repository: 
-git clone https://github.com/shtwaijri/Educational-Kids-Game.git
+git clone https://github.com/shtwaijri/Foodora-App-UI.git
 
 2.	Navigate to the project folder: 
 cd  Educational-Kids-Game
