@@ -10,7 +10,8 @@ class Foods extends StatefulWidget {
 }
 
 class _FoodsState extends State<Foods> {
-  int selectedIndex = 0;
+  final PageController _pageController = PageController(viewportFraction: 0.7);
+  int _currentPage = 0;
 
   final List<Map<String, dynamic>> categoryData = [
     {
@@ -20,8 +21,7 @@ class _FoodsState extends State<Foods> {
       'price': 12.0,
     },
     {
-      'image':
-          '/Users/solym/src/projects/may3rd/Foodora-App-UI/assets/images/chickenBurger.png',
+      'image': 'assets/images/chickenBurger.png',
       'title': 'Chicken Burger',
       'rating': 3.0,
       'price': 15.0,
@@ -29,33 +29,79 @@ class _FoodsState extends State<Foods> {
   ];
 
   @override
-  Widget build(BuildContext context) {
-    return SizedBox(
-      height: context.screenHeight * 0.3,
-      child: ListView.builder(
-        clipBehavior: Clip.none,
-        scrollDirection: Axis.horizontal,
-        itemCount: categoryData.length,
-        itemBuilder: (context, index) {
-          final item = categoryData[index];
+  void initState() {
+    super.initState();
+    _pageController.addListener(() {
+      final page = _pageController.page?.round() ?? 0;
+      if (page != _currentPage) {
+        setState(() {
+          _currentPage = page;
+        });
+      }
+    });
+  }
 
-          return InkWell(
-            borderRadius: BorderRadius.circular(34),
-            onTap: () {
-              setState(() {
-                selectedIndex = index;
-              });
+  @override
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        SizedBox(
+          height: context.screenHeight * 0.3,
+          child: PageView.builder(
+            clipBehavior: Clip.none,
+            controller: _pageController,
+            itemCount: categoryData.length,
+            itemBuilder: (context, index) {
+              final item = categoryData[index];
+              return Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                child: InkWell(
+                  borderRadius: BorderRadius.circular(34),
+                  onTap:
+                      () => _pageController.animateToPage(
+                        index,
+                        duration: const Duration(milliseconds: 300),
+                        curve: Curves.easeInOut,
+                      ),
+                  child: FoodCard(
+                    imagePath: item['image'] as String,
+                    title: item['title'] as String,
+                    rating: item['rating'] as double,
+                    price: item['price'] as double,
+                    isSelected: _currentPage == index,
+                  ),
+                ),
+              );
             },
-            child: FoodCard(
-              imagePath: item['image'] as String,
-              title: item['title'] as String,
-              rating: item['rating'] as double,
-              price: item['price'] as double,
-              isSelected: selectedIndex == index,
-            ),
-          );
-        },
-      ),
+          ),
+        ),
+        const SizedBox(height: 12),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: List.generate(categoryData.length, (index) {
+            final isActive = index == _currentPage;
+            return AnimatedContainer(
+              duration: const Duration(milliseconds: 300),
+              margin: const EdgeInsets.symmetric(horizontal: 4),
+              width: isActive ? 12 : 8,
+              height: isActive ? 12 : 8,
+              decoration: BoxDecoration(
+                color:
+                    isActive
+                        ? const Color.fromRGBO(255, 0, 54, 1)
+                        : Colors.grey[400],
+                shape: BoxShape.circle,
+              ),
+            );
+          }),
+        ),
+      ],
     );
   }
 }
