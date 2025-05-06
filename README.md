@@ -1,57 +1,67 @@
 
-## Foodora App UI in Flutter 🍔
+## Foodora App UI in Flutter 🍔 
+### Tuwaiq Academy Flutter Bootcamp
 
-![Foodora UI](https://paper-attachments.dropboxusercontent.com/s_A8FFBBE8FC8B6CD6E76F8A387E1E02F9FAE9735AE5170B84D95D4A05B0A94071_1739348940745_Screenshot+1446-08-13+at+11.12.53AM.png)
-
----
-
-## 📌 Objective
-
-Your task is to replicate the **Foodora app UI** using Flutter.  
-The app should provide an interactive and visually appealing food ordering experience with **smooth navigation**.
+### 📘 Introduction
 
 ---
+The goal of this project is to design and implement user interfaces for a Foodora style food delivery app using Flutter. The UI will be built by closely following a reference design provided via Figma [Foodora App Design](https://www.figma.com/design/2zd2h3XEZ7fsSkS3oeSOYn/Food-app---Authentication-(Community)?node-id=0-1&p=f&t=sXtJ8KxNe3voBCvy-0) to practice Flutter development and improve UI design implementation skills.. The focus is on accurately replicating the visual elements and layout to improve UI implementation skills and gain hands-on experience in translating modern food delivery app designs into responsive Flutter interfaces.
 
-## 🎨 Figma UI
+---
+### 🔍 Project Preview
 
-Design reference:
+<img src="PagePreview.gif" alt="Preview" width="350">
+<img src="PagePreview.png" alt="Project Pages" style="width:100%; max-width:600px; display:block; margin:auto" />
 
-- [Figma Design](https://www.figma.com/design/2zd2h3XEZ7fsSkS3oeSOYn/Food-app---Authentication-(Community)?node-id=0-1&p=f&t=sXtJ8KxNe3voBCvy-0)
+---
+### ⚙️ Tech Stack
+- **Flutter**
+- **Dart**
+
+---
+### 💻  Setup instructions 
+
+ 1. Clone the repository:
+
+```
+https://github.com/RemasNg1/Foodora-App-UI.git
+```
+2. Navigate to the project folder:
+
+```
+cd Foodora-App-UI
+```
+
+3. Install dependencies:
+```
+flutter pub get
+```
+
+ 4. Run the app:
+ ```
+ flutter run 
+ ```  
+
+---
+### 📂 Folder Structure 
+
+```
+lib
+   ├── main.dart
+   └── screens
+       ├── login_signup_screen.dart
+       ├── splash_screen.dart
+       └── home_screen.dart
+       
+       
+```
 
 
 ---
+### 🖊️ Author
+Remas Alnugaithan
 
-## 🔧 Concepts to Implement
 
-1. **Advanced Navigation**
-   - 🧭 Implement a `Drawer` for side navigation.
-   - 🍽️ Create a `TabBar` with `TabController` to switch between food categories.
 
-2. **Scrollable Views**
-   - 📜 Use `ListView` for a vertical scrollable list of food items.
-   - 👆 Implement `PageView` for swiping between featured food.
-   - ⚙️ Customize scroll behavior and gestures.
 
-3. **Dialogs and Sheets**
-   - 🛒 Use `AlertDialog` for adding to cart.
-   - 📦 Implement a `BottomSheet` for food item details or cart summary.
 
----
-
-## 📂 Submission Guidelines
-
-- 📌 Upload your project to **GitHub** with a well-documented `README.md`.
-- 📸 Include **screenshots** or **screen recordings** of the working app.
-- 🧼 Follow **clean code** principles.
-
----
-
-## ⏳ Deadline
-
-Submit by **[May 6]** before **10:00 AM**.
-
----
-
-## ✨ Reminder
-
-🚀 *"Food ordering apps should be as smooth as melted cheese on a burger!"* 🍔😋
