@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		28C+lP4qWrPYZCQ9FOSFW6ecr5k=
+		pepNt7At/KLsTZpMcGWH2kgAH6E=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Nofcl+nN7mmaEIY74EuwkBSAWho=
+		RCJq/kjq+Ix3oHw7bNNiMecoSII=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		De/AZ5HtvxXqRLn5Ztcs9pU1+vQ=
+		D+ldABAuq55SEZ9t5FLBMot19s4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		8oZomkwxneFWu+4q+0B7UfskNOw=
+		Mm8UjWqCLE1pallrADV3/P7Ejtk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -87,6 +87,10 @@
 		<key>Frameworks/App.framework/flutter_assets/assets/images/burger.png</key>
 		<data>
 		z/MkrsDhTGT0QN1QGzE9a6UiI+g=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/checkenBurger.png</key>
+		<data>
+		B2qKqgHpqf0URiS77Y0wsyfVm+M=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/chicken.png</key>
 		<data>
@@ -142,7 +146,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		j5jXJnGu2PxLn4U3hgf2p+ZiG2w=
+		I+BbHDY6jJKyV8UCiN35VMA+i/w=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -333,7 +337,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S0zJ8P9WhoxY83U8Cb7AZkzqR3rAmMz0KBurzN6OaHA=
+			I8MM3Dn9aSwFl6AJ08MLlj69YuUFiLm396tvnmJP8po=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -347,21 +351,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nLI3gTjFSU/ghqyV9Yo02FiiVmZE+HsBKZgQsm7hU7A=
+			WeZjQLxcjr5JUzNS61EQVf5gZowxJ2Pwkqm2kINM+DU=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3MKG3TC63Mdamgu8oVSZBZKtR7nC7bcrhmmfTKjno8s=
+			Ix8pxfmgjbES8ag9UewWnDSS30QArrzfaTUknF3kY+c=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XLdypnwf5hX4faCT9VJTAKA2rPVAhIG95zUig8Lf5mY=
+			+JYtdtKg4/tmejM2iEBqc59QCQmNOuma+EZ0t8Vjuy8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -404,6 +408,13 @@
 			<key>hash2</key>
 			<data>
 			M3zcz03xJZfUpSXTWgu+sok3FwaTdYG5c+nWuQUHpgM=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/checkenBurger.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0uk+/bDznkJioeCnaIYo5BMJeRIlI6O324R2QAa5n9I=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/chicken.png</key>
@@ -501,7 +512,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xP7C8PkUvmvCs+H3YSPmadr6pwB6GSMlxYX6kyFCsqw=
+			VdKFBG0kTEV0vv+k3y2NM5yavvrRu0Qrn/0KTtLXZcM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

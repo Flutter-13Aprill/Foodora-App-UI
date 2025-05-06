@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:may3rd/CustomWidgets/HomeScreen/categories.dart';
+import 'package:may3rd/CustomWidgets/HomeScreen/foods.dart';
 import 'package:may3rd/data/screen_size.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -108,6 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
               "Burgers",
               style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
             ),
+            Foods(),
           ],
         ),
       ),
