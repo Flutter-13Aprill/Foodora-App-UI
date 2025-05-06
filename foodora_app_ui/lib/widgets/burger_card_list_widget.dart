@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:foodora_app_ui/models/category_model.dart';
 import 'package:foodora_app_ui/models/food_model.dart';
 import 'package:foodora_app_ui/widgets/card_burger_widget.dart';
 

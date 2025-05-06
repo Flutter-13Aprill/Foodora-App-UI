@@ -33,6 +33,7 @@ class _CardCategoryWidgetState extends State<CardCategoryWidget> {
 
           border: Border.all(
             width: 1,
+            // if i select category border color will change to red
             color:
                 widget.category.selected
                     ? Color.fromRGBO(255, 0, 54, 0.24)
@@ -44,6 +45,8 @@ class _CardCategoryWidgetState extends State<CardCategoryWidget> {
           children: [
             Image.asset(
               widget.category.imagePath,
+
+              // if i select category image color will change to red
               color:
                   widget.category.selected
                       ? Color.fromRGBO(255, 0, 54, 0.24)

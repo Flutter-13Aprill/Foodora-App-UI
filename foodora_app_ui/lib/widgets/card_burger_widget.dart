@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:foodora_app_ui/models/food_model.dart';
 
@@ -19,9 +20,28 @@ class _CardBurgerWidgetState extends State<CardBurgerWidget> {
             widget.food.clicked = !widget.food.clicked;
             if (widget.food.clicked == true) {
               cart.add(widget.food);
+              showDialog(
+                context: context,
+                builder:
+                    (context) => AlertDialog(
+                      title: Text("${widget.food.title}"),
+                      content: Text(
+                        "Order: ${widget.food.title} and price ${widget.food.price}",
+                      ),
+                      actions: [
+                        TextButton(
+                          onPressed: () {
+                            Navigator.of(context).pop();
+                          },
+                          child: Text("OK"),
+                        ),
+                      ],
+                    ),
+              );
             } else {
               cart.remove(widget.food);
             }
+
             print(cart.length);
             setState(() {});
           },
