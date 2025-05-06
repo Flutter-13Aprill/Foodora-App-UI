@@ -31,7 +31,7 @@ class CartWidget extends StatelessWidget {
                     child: Container(
                       margin: EdgeInsets.all(32),
                       child: Text(
-                        'Foodra',
+                        'Foodora',
                         style: GoogleFonts.poppins(
                           fontSize: 32,
                           fontWeight: FontWeight.w600,

@@ -41,7 +41,7 @@ class FoodItemWidget extends StatelessWidget {
           context: context,
           builder:
               (context) => AlertDialog(
-                title: Text('Foodra'),
+                title: Text('Foodora'),
                 content: Text(
                   'This $nameFood contains more than 30 grams of protein.',
                 ),
