@@ -1,57 +1,64 @@
+# Foodora App UI
 
-## Foodora App UI in Flutter 🍔
+A sleek Flutter-based food app UI featuring a smooth onboarding experience, intuitive authentication tabs, and a modern home screen with easy access to food categories and user options.
 
-![Foodora UI](https://paper-attachments.dropboxusercontent.com/s_A8FFBBE8FC8B6CD6E76F8A387E1E02F9FAE9735AE5170B84D95D4A05B0A94071_1739348940745_Screenshot+1446-08-13+at+11.12.53AM.png)
+## Screenshots
 
----
+### Onboarding Screen  
+![Onboarding Screen](Screenshots/onboarding.png)
 
-## 📌 Objective
+### Authentication Screen (Login & Signup Tabs)  
+![Login Tab](Screenshots/login.png)
+![signUp Tab](Screenshots/signUp.png)
+### Home Screen  
+![Home Screen](Screenshots/home.png)
 
-Your task is to replicate the **Foodora app UI** using Flutter.  
-The app should provide an interactive and visually appealing food ordering experience with **smooth navigation**.
+## Features
 
----
+- **Onboarding Flow**  
+  - Visually appealing welcome screens to introduce the app's features and value proposition.
 
-## 🎨 Figma UI
+- **Authentication with TabController**  
+  - Seamless tab-based navigation between Login and Signup on the same screen.
+  - Clean and modern form inputs with validation.
 
-Design reference:
+- **Home Screen with Drawer**  
+  - A side drawer for easy navigation to settings, profile, and more.
+  - User profile picture displayed on the top right for quick identity reference.
 
-- [Figma Design](https://www.figma.com/design/2zd2h3XEZ7fsSkS3oeSOYn/Food-app---Authentication-(Community)?node-id=0-1&p=f&t=sXtJ8KxNe3voBCvy-0)
+- **Food Categories & Items**  
+  - Scrollable sections for browsing food categories and dishes.
+  - Smooth UI transitions and structured layout for easy food discovery.
 
+## Tech Stack
 
----
+- **Flutter** (latest stable version)  
+- **Dart**
 
-## 🔧 Concepts to Implement
+## Installation
 
-1. **Advanced Navigation**
-   - 🧭 Implement a `Drawer` for side navigation.
-   - 🍽️ Create a `TabBar` with `TabController` to switch between food categories.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+2. Navigate to the project directory:
+    ```bash
+    cd your-repo-name
+3. Install dependencies:
+    ```bash
+    flutter pub get
+4. Run the app:
+    ```bash
+    flutter run
+## How to use:
+- Launch the app to view the onboarding screens.
 
-2. **Scrollable Views**
-   - 📜 Use `ListView` for a vertical scrollable list of food items.
-   - 👆 Implement `PageView` for swiping between featured food.
-   - ⚙️ Customize scroll behavior and gestures.
+- Use the Login or Signup tabs to authenticate.
 
-3. **Dialogs and Sheets**
-   - 🛒 Use `AlertDialog` for adding to cart.
-   - 📦 Implement a `BottomSheet` for food item details or cart summary.
+- Once logged in, access the Home Screen with categorized food listings.
 
----
+- Tap the drawer icon for navigation and settings.
 
-## 📂 Submission Guidelines
+- Click the foods and categories you want to pick.
 
-- 📌 Upload your project to **GitHub** with a well-documented `README.md`.
-- 📸 Include **screenshots** or **screen recordings** of the working app.
-- 🧼 Follow **clean code** principles.
+## *Solaiman Al-Dokhail*
 
----
-
-## ⏳ Deadline
-
-Submit by **[May 6]** before **10:00 AM**.
-
----
-
-## ✨ Reminder
-
-🚀 *"Food ordering apps should be as smooth as melted cheese on a burger!"* 🍔😋
