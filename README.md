@@ -29,7 +29,7 @@ https://github.com/RemasNg1/Foodora-App-UI.git
 2. Navigate to the project folder:
 
 ```
-cd Foodora-App-UI
+cd Foodora-App-UI/foodora_app
 ```
 
 3. Install dependencies:
