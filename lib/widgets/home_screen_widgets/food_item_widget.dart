@@ -41,13 +41,17 @@ class FoodItemWidget extends StatelessWidget {
           context: context,
           builder:
               (context) => AlertDialog(
-                title: Text('Foodora'),
+                title: Text(
+                  'foodora',
+                  style: GoogleFonts.poppins(
+                    fontSize: 32,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
                 content: Text(
                   'This $nameFood contains more than 30 grams of protein.',
                 ),
-                actions: [
-                  CustomThemeButton()
-                ],
+                actions: [CustomThemeButton()],
               ),
         );
       },
