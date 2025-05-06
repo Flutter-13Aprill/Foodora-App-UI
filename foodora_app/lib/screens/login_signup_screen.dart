@@ -7,6 +7,9 @@ class LoginSignupScreen extends StatefulWidget {
   @override
   State<LoginSignupScreen> createState() => _LoginSignupScreenState();
 }
+// This is the Login/Signup screen. It allows users to switch between the login and signup forms using a TabBar and TabController.
+// We use a TabController to manage the tab switching, and TextEditingController for handling text input fields.
+// Additionally, after successful login or signup, we navigate to the HomeScreen and pass the user's username as an argument to the HomeScreen.
 
 class _LoginSignupScreenState extends State<LoginSignupScreen>
     with SingleTickerProviderStateMixin {

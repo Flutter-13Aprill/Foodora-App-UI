@@ -8,6 +8,7 @@ class SplashScreen extends StatefulWidget {
   @override
   State<SplashScreen> createState() => _SplashScreenState();
 }
+// The splash screen displays the logo for 10 seconds, then transitions to the login/signup screen.
 
 class _SplashScreenState extends State<SplashScreen> {
   @override

@@ -7,23 +7,18 @@ class HomeScreen extends StatefulWidget {
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
+// This is the HomeScreen which serves as the main dashboard for the app.
+// It includes a navigation drawer, a search bar, categories for different food items, and a burger selection feature with page view.
+// In the navigation drawer, we display the username passed from the previous screen (LoginSignupScreen) to personalize the greeting for the user.
+// In the Categories section, we used ListView to display the food categories horizontally.
+// In the Burgers section, we used PageView to display the burgers in a scrollable horizontal view.
+// Additionally, there's a cart button that allows users to add products to their cart, and the cart counter increases each time a product is added.
 
 class _HomeScreenState extends State<HomeScreen> {
   int clickedIndex = 0;
   int selectedBurger = 0;
   int cartCounter = 0;
   final PageController pageController = PageController(viewportFraction: 0.6);
-  // double currentPage = 0;
-
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   pageController.addListener(() {
-  //     setState(() {
-  //       currentPage = pageController.page!.round();
-  //     });
-  //   });
-  // }
 
   List<String> menuCategory = ['Burger', "Pizza", "Chicken", "Drinks"];
   Map<String, String> listViewItem = {
@@ -57,7 +52,6 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             DrawerHeader(
               decoration: BoxDecoration(
-                // color: Color(0xFFFF0036),
                 gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
