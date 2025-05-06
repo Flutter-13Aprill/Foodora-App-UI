@@ -2,10 +2,14 @@
 ## Foodora App UI in Flutter 🍔
 
 ## 📱 App Screenshots
+<p float ="left">
+<img src="Simulator Screenshot - iPhone 13 Pro Max - 2025-05-06 at 12.09.59.png" width="200"/>
+<img src="Simulator Screenshot - iPhone 13 Pro Max - 2025-05-06 at 05.57.30.png" width="200"/>
+<img src="Simulator Screenshot - iPhone 13 Pro Max - 2025-05-06 at 05.57.26.png" width="200"/>
+<img src="Simulator Screenshot - iPhone 13 Pro Max - 2025-05-06 at 05.56.53.png" width="200"/>
+</p>
 
-<img src="Simulator Screenshot - iPhone 13 Pro Max - 2025-05-06 at 05.57.30.png" width="300"/>
-<img src="Simulator Screenshot - iPhone 13 Pro Max - 2025-05-06 at 05.57.26.png" width="300"/>
-<img src="Simulator Screenshot - iPhone 13 Pro Max - 2025-05-06 at 05.56.53.png" width="300"/>
+
 
 ---
 
