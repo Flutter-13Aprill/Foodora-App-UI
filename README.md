@@ -9,7 +9,7 @@ This project is part of a Flutter bootcamp focused on building the UI for a food
 ### Design Prototype 🎨
 
 Check out the UI design on Figma:
-[🔗 View on Figma]([https://www.figma.com/design/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game--Community-?node-id=0-1&p=f&t=u11554YlbSp3Ka0w-0](https://www.figma.com/design/2zd2h3XEZ7fsSkS3oeSOYn/Food-app---Authentication--Community-?node-id=0-1&p=f&t=TlOr01TQr31nzjvs-0))
+[🔗 View on Figma](https://www.figma.com/design/2zd2h3XEZ7fsSkS3oeSOYn/Food-app---Authentication--Community-?node-id=0-1&p=f&t=TlOr01TQr31nzjvs-0)
 
 ---
 
