@@ -17,7 +17,12 @@ This project focuses on creating a clean, scrollable, and responsive restaurant-
 <img src="foodora/assets/screenshots/home_screen.png" width="250">
 
 ### Dashboard Screens  
-<img src="foodora/assets/screenshots/dashbords1.png" width="250"> <img src="foodora/assets/screenshots/dashbords2.png" width="250"> <img src="foodora/assets/screenshots/dashbords3.png" width="250"> <img src="foodora/assets/screenshots/dashbords4.png" width="250"> <img src="foodora/assets/screenshots/dashbords5.png" width="250"> <img src="foodora/assets/screenshots/dashbords6.png" width="250">
+<img src="foodora/assets/screenshots/dashborad1.png" width="250">  
+<img src="foodora/assets/screenshots/dashborad2.png" width="250">  
+<img src="foodora/assets/screenshots/dashborad3.png" width="250">  
+<img src="foodora/assets/screenshots/dashborad4.png" width="250">  
+<img src="foodora/assets/screenshots/dashborad5.png" width="250">  
+<img src="foodora/assets/screenshots/dashborad6.png" width="250">
 
 ---
 
