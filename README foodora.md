@@ -8,21 +8,16 @@ This project focuses on creating a clean, scrollable, and responsive restaurant-
 ## Screenshots
 
 ### Login Screen  
-<img src="assets/screenshots/login.png" width="250">
+<img src="foodora/assets/screenshots/login.png" width="250">
 
 ### Signup Screen  
-<img src="assets/screenshots/signup.png" width="250">
+<img src="foodora/assets/screenshots/signup.png" width="250">
 
 ### Home Screen  
-<img src="assets/screenshots/home_screen.png" width="250">
+<img src="foodora/assets/screenshots/home_screen.png" width="250">
 
 ### Dashboard Screens  
-<img src="assets/screenshots/dashbords1.png" width="250">  
-<img src="assets/screenshots/dashbords2.png" width="250">  
-<img src="assets/screenshots/dashbords3.png" width="250">  
-<img src="assets/screenshots/dashbords4.png" width="250">  
-<img src="assets/screenshots/dashbords5.png" width="250">  
-<img src="assets/screenshots/dashbords6.png" width="250">
+<img src="foodora/assets/screenshots/dashbords1.png" width="250"> <img src="foodora/assets/screenshots/dashbords2.png" width="250"> <img src="foodora/assets/screenshots/dashbords3.png" width="250"> <img src="foodora/assets/screenshots/dashbords4.png" width="250"> <img src="foodora/assets/screenshots/dashbords5.png" width="250"> <img src="foodora/assets/screenshots/dashbords6.png" width="250">
 
 ---
 
